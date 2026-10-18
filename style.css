@@ -1,0 +1,29 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  line-height: 1.5;
+}
+
+#status.success { color: green; font-weight: bold; }
+#status.error { color: red; font-weight: bold; }
+
+#notes-list { list-style: none; padding: 0; }
+#notes-list li {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+label { display: block; margin-top: 1rem; font-weight: bold; }
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
